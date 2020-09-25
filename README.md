@@ -6,8 +6,8 @@ Also it contains the base for starting with gdnative stuff
 
 **How to use**
 
-* Create a folder anywere or inside your godot project folder
-* Place this file
+* Clone this repo inside any folder or inside your godot project
+* Then clone the godot-cpp repo inside this folder
 
 **Configuration**
 
