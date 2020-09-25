@@ -16,20 +16,23 @@ working
 
 #### Lines 74-77
 
-* Local dependency paths, adapt them to your setup
+* Local dependency paths, adapt them to your setup:
+
 godot_headers_path = "../godot-cpp/godot_headers/" # Godot headers folder
 cpp_bindings_path = "../godot-cpp/" # godot cpp stuff
 cpp_library = "libgodot-cpp" # the name of 
 
 #### Lines 164-165
 
-* Your source files (*.cpp, *.h**)
+* Your source files (*.cpp, *.h**):
+
 env.Append(CPPPATH=['src/'])
 sources = Glob('src/*.cpp')
 
 #### Line 65
 
-* The path where the lib will be generated
+* The path where the lib will be generated:
+
 opts.Add(PathVariable('target_path', 'The path where the lib is installed.', 'bin/'))
 
 
