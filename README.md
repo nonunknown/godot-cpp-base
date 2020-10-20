@@ -23,6 +23,5 @@ your cpp and hpp files inside `src/` folder
 **Example Commands**
 
 `scons platform=linux target=release -j4 `
-`scons platform=windows target=debug -j3 src_folder="src/windows_stuff target_path="bin/windows_stuff"`
-```
 
+`scons platform=windows target=debug -j3 src_folder="src/windows_stuff target_path="bin/windows_stuff"`
