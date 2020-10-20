@@ -17,27 +17,12 @@ Also it contains the base for starting with gdnative stuff
 
 **Configuration**
 
-Those are the important lines on the file you CAN modify, but its not mandatory
-#### Lines 74-77
+There's no need to change anything, only if you like to, just make sure to place
+your cpp and hpp files inside `src/` folder
 
-* Local dependency paths, adapt them to your setup:
-```
-godot_headers_path = "../godot-cpp/godot_headers/" # Godot headers folder
-cpp_bindings_path = "../godot-cpp/" # godot cpp stuff
-cpp_library = "libgodot-cpp" # the name of 
-```
-#### Lines 164-165
+**Example Commands**
 
-* Your source files (*.cpp, *.h**):
-```
-env.Append(CPPPATH=['src/'])
-sources = Glob('src/*.cpp')
-```
-#### Line 65
-
-* The path where the lib will be generated:
-```
-opts.Add(PathVariable('target_path', 'The path where the lib is installed.', 'bin/'))
-
+`scons platform=linux target=release -j4 `
+`scons platform=windows target=debug -j3 src_folder="src/windows_stuff target_path="bin/windows_stuff"`
 ```
 
