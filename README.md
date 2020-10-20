@@ -1,5 +1,10 @@
 # Scons for Building custom GDNative classes
 
+**News**
+* Updated to support NativeIntegration plugin:
+  - added `src_folder` arg eg: `src_folder = "src/project_name/"`
+  - ps: using with `target_path` arg eg: `target_path = "bin/project_name/"`
+
 **Description**
 
 This is a modified version of sheep (godot dev) sconstruct file for use on your projects
