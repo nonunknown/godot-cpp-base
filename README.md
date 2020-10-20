@@ -17,9 +17,7 @@ Also it contains the base for starting with gdnative stuff
 
 **Configuration**
 
-Those are the important lines on the file you should modify in order to get your compilation
-working
-
+Those are the important lines on the file you CAN modify, but its not mandatory
 #### Lines 74-77
 
 * Local dependency paths, adapt them to your setup:
